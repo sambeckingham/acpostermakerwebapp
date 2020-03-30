@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +24,42 @@
   color: white;
 }
 
-.App-link {
+.App-body {
+  background-color: #3b414d;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-footer {
+  background-color: #525c66;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+
+.ImageCropper {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 50%;
+  align-self: center;
+  height: 40px;
+  margin: 20px;
+  font-size: 28px;
+  background-color: #61dafb;
+  border: 0;
+  border-radius: 5px;
+}
+
+a {
   color: #61dafb;
 }
 
